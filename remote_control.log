@@ -1,0 +1,30 @@
+ * Serving Flask app 'remote_control'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [10/Nov/2025 02:33:19] "GET /healthz HTTP/1.1" 200 -
+127.0.0.1 - - [10/Nov/2025 02:33:31] "GET /run?target_url=https://httpbin.org/ip HTTP/1.1" 200 -
+76.64.196.131 - - [10/Nov/2025 02:35:40] "GET /healthz HTTP/1.1" 200 -
+76.64.196.131 - - [10/Nov/2025 02:35:40] code 400, message Bad request syntax ('\x16\x03\x01\x07O\x01\x00\x07K\x03\x03á\x7fÛÍ&D\x7f°Ë')
+76.64.196.131 - - [10/Nov/2025 02:35:40] "[31m[1m\x16\x03\x01\x07O\x01\x00\x07K\x03\x03á\x7fÛÍ&D\x7f°Ë[0m" 400 -
+76.64.196.131 - - [10/Nov/2025 02:35:41] code 400, message Bad request version ('ò\x9b\x9f«\x8c÷õÎ0\x9bcã¡;¤\x03ö¡óì\x9cÏá')
+76.64.196.131 - - [10/Nov/2025 02:35:41] "[31m[1m\x16\x03\x01\x02~\x01\x00\x02z\x03\x03\x98©\x04\x0cákþÙbkÈ\x80¾\x9ai_ó«Rù°3\x12)ö¡¦\x92ñ6|\x14 ò\x9b\x9f«\x8c÷õÎ0\x9bcã¡;¤\x03ö¡óì\x9cÏá[0m" 400 -
+76.64.196.131 - - [10/Nov/2025 02:36:17] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+76.64.196.131 - - [10/Nov/2025 02:36:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Nov/2025 02:37:57] "GET /healthz HTTP/1.1" 200 -
+127.0.0.1 - - [10/Nov/2025 02:38:36] "GET /healthz HTTP/1.1" 200 -
+127.0.0.1 - - [10/Nov/2025 02:38:39] "GET /run?target_url=https://httpbin.org/ip HTTP/1.1" 200 -
+76.64.196.131 - - [10/Nov/2025 02:39:46] "GET /run?target_url=https://httpbin.org/ip HTTP/1.1" 200 -
+76.64.196.131 - - [10/Nov/2025 02:39:46] code 400, message Bad request version ('\x1557{\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+76.64.196.131 - - [10/Nov/2025 02:39:46] "[31m[1m\x16\x03\x01\x07O\x01\x00\x07K\x03\x03ÆL\x0bòZiÛå\x05¶µÌÅ¿\x15HEÏ\\\x8dZ4Ý«Ü;\x8a_ù \x02D  lwiÃ,\x07ìñ§\\(í¬Á\x09N\x1dy\x06`\x94q\x1cø3½\x1c\x1557{\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+76.64.196.131 - - [10/Nov/2025 02:39:47] code 400, message Bad request version ('c/HG\x91\x1b\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+76.64.196.131 - - [10/Nov/2025 02:39:47] "[31m[1m\x16\x03\x01\x02~\x01\x00\x02z\x03\x03\\"\x16\x04\x81\x89cý¨{Ü\x8bWtûsÉ\x8f¤ý\x11Ø\x9dÙÚÏCÌ\x19ÿJ\x8a ¶Øîòsü_\\\x04\x7f[æ=±¬\x1fèw\x1b\x18)\x01\x9ewQ c/HG\x91\x1b\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+76.64.196.131 - - [10/Nov/2025 02:39:52] "[33mGET /video_feed HTTP/1.1[0m" 404 -
+76.64.196.131 - - [10/Nov/2025 02:39:57] "GET /run?target_url=https://news.ycombinator.com HTTP/1.1" 200 -
+76.64.196.131 - - [10/Nov/2025 02:39:58] code 400, message Bad request version ('Ú\x05ÛC¹')
+76.64.196.131 - - [10/Nov/2025 02:39:58] "[31m[1m\x16\x03\x01\x07O\x01\x00\x07K\x03\x03hÑ \x10\x94\\<ö$,ÖÒ\x96[\x90 Ú\x05ÛC¹[0m" 400 -
+76.64.196.131 - - [10/Nov/2025 02:39:58] code 400, message Bad request syntax ('\x16\x03\x01\x02~\x01\x00\x02z\x03\x03Ò&\x19¹\x18\x7f')
+76.64.196.131 - - [10/Nov/2025 02:39:58] "[31m[1m\x16\x03\x01\x02~\x01\x00\x02z\x03\x03Ò&\x19¹\x18\x7f[0m" 400 -
